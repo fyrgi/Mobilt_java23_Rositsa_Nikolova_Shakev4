@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/accelerometerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Data"
+        android:textSize="18sp"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/gyroscopeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope Data"
+        android:textSize="18sp"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/lightText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Sensor Data"
+        android:textSize="18sp"
+        tools:context=".MainActivity" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="Rotating Image"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/stray" />
+
+</LinearLayout>
+
